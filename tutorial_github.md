@@ -40,7 +40,7 @@ Mantendremos una estructura clara para aislar datos, modelos y código principal
 | **`models/`** | Archivos del modelo entrenado (`.h5`, `.pth`), *checkpoints*. | Repositorio para guardar y cargar las versiones del clasificador. |
 | **`notebooks/`** | Archivos `.ipynb` de experimentación, análisis EDA. | Documentación y pruebas de concepto. |
 | **`src/`** | Código Python reusable (clases, funciones, *pipelines*). | Módulos principales del proyecto (ej: `src/model.py`, `src/utils.py`). |
-| **`app.py`** | El archivo principal de la interfaz web (Streamlit). | El punto de entrada para la aplicación desplegada. |
+| **`main.py`** | El archivo principal de la interfaz web (Streamlit). | El punto de entrada para la aplicación desplegada. |
 
 ---
 
